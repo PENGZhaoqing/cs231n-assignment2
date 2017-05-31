@@ -34,9 +34,9 @@ we achieved around 77% accuracy in test data, and 90%+ in validation data with a
 
 ## TODO List
 
-1.　Use Batch Normalization after each convolution layer (implemented but not test due to the running speed)
+1. Use Batch Normalization after each convolution layer (implemented but not test due to the running speed)
 
-2.  Adjust the dropout and L2 regulization to prevent overfit
+2. Adjust the dropout and L2 regulization to prevent overfit
 
 
 # Original CS231n README
