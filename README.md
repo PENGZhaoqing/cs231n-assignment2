@@ -1,6 +1,6 @@
 # Updated
 
-For CIFAR-10, we use the network structure
+For CIFAR-10 dataset, we use the network structure
 
 ```
 INPUT --> [CONV --> RELU --> CONV --> RELU --> POOL]*2 --> [FC --> RELU] --> DROPOUT --> [FC --> RELU] --> FC/OUT
