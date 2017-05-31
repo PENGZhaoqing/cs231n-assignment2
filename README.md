@@ -12,23 +12,14 @@ weight_scale=0.01, L2 regularization=0.0005, dropout=0.8, batch_size=100, optimi
 
 ```
 INPUT: input_dim=(3,32,32)
-
 CONV1: filters=64, filter_size=(3,3),stride=1, pad=1
-
 CONV2: filters=64, filter_size=(3,3), stride=1, pad=1
-
 POOL2: pool_height= 2, pool_width= 2, stride= 2
-
 CONV3: filters=64, filter_size=(3,3),stride=1, pad=1
-
 CONV4: filters=64, filter_size=(3,3), stride=1, pad=1
-
 POOL4: pool_height= 2, pool_width= 2, stride= 2
-
 FC5: 512 neurons
-
 FC6: 64 neurons
-
 FC7: 10 outputs
 ```
 
@@ -44,6 +35,7 @@ we achieved around 77% accuracy in test data, and 90%+ in validation data with a
 ## TODO List
 
 1.　Use Batch Normalization after each convolution layer (implemented but not test due to the running speed)
+
 2.  Adjust the dropout and L2 regulization to prevent overfit
 
 
