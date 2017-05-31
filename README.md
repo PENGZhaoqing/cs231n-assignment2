@@ -1,4 +1,4 @@
-# Results
+# Updated
 
 For CIFAR-10, we use the network structure
 
@@ -8,7 +8,7 @@ INPUT --> [CONV --> RELU --> CONV --> RELU --> POOL]*2 --> [FC --> RELU] --> DRO
 
 ## Parameters:
 
-weight_scale=0.01, L2 regularization=0.0005, input_dim=(3, 32, 32), dropout=0.8, batch_size=100, optimizer=adam, learning_rate=0.001
+weight_scale=0.01, L2 regularization=0.0005, dropout=0.8, batch_size=100, optimizer=adam, learning_rate=0.001
 
 ```
 INPUT: input_dim=(3,32,32)
@@ -34,9 +34,18 @@ FC7: 10 outputs
 
 ## Results:
 
+we achieved around 77% accuracy in test data, and 90%+ in validation data with a little overfit. 
+
 <img src="figure_2.png">
 
 <img src="figure_1.png">
+
+
+## TODO List
+
+1.　Use Batch Normalization after each convolution layer (implemented but not test due to the running speed)
+2.  Adjust the dropout and L2 regulization to prevent overfit
+
 
 # Original CS231n README
 
