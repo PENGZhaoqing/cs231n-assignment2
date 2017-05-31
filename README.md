@@ -23,6 +23,10 @@ FC6: 64 neurons
 FC7: 10 outputs
 ```
 
+You can find the structure and parameters in `cnn_custom.py`
+
+Run `python ConvolutionalNetworks.py` to start training and test
+
 ## Results:
 
 we achieved around 77% accuracy in test data, and 90%+ in validation data with a little overfit. 
